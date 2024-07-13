@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { ChakraProvider, theme } from "@chakra-ui/react";
-import { GlobalState } from "./context";
+import GlobalState from "./context";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
