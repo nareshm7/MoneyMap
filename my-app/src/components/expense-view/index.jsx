@@ -36,7 +36,7 @@ export default function ExpenseView({ type, data }) {
                 {item.description}
               </Text>
             </Flex>
-            <Text>$ {item.amount}</Text>
+            <Text><span>&#8377;</span> {item.amount}</Text>
           </Flex>
         </>
       ))}

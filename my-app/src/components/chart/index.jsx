@@ -2,7 +2,7 @@ import Chart from "react-apexcharts";
 
 const options = {
   labels: ["Income", "Expense"],
-  colors: ["#213ebf","#FD5E53"],
+  colors: ["#00FF00","#FD5E53"],
   chart: {
     width: "50px",
   },
@@ -31,7 +31,7 @@ const options = {
     },
   },
   fill: {
-    colors: ["#213ebf","#FD5E53"],
+    colors: ["#00FF00","#FD5E53"],
   },
   tooltip: {
     enabled: true,

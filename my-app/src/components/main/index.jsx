@@ -26,14 +26,13 @@ export default function Main() {
 
     setTotalExpense(expense);
     setTotalIncome(income);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [...allTransactions]);
+  }, [allTransactions]);
 
   return (
     <Flex textAlign={"center"} flexDirection={"column"} pr={"5"} pl={"5"}>
       <Flex alignItems={"center"} justifyContent={"space-between"} mt={"12"}>
         <Heading
-          color={"Green.400"}
+          textColor={"green.400"}
           display={["none", "block", "block", "block", "block"]}
         >
           MoneyMap
